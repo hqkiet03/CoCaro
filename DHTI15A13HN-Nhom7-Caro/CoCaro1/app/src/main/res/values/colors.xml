@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="grid_background">#f0f0f0</color>
+    <color name="button_background">#4E4E4E</color>
+    <color name="button_stroke">#cccccc</color>
+    <color name="default_text_color">#000000</color>
+    <color name="x_text_color">#ff0000</color>
+    <color name="o_text_color">#0000ff</color>
+    <color name="heading">#17CC83</color>
+    <color name="title_cols">#FFFFFF</color>
+    <color name="color_green">#53AB08</color>
+    <color name="color_white">#FFFFFF</color>
+    <color name="color_red">#E91611</color>
+    <color name="color_brown">#681D1D</color>
+    <color name="xanh">#C61BC315</color>
+</resources>

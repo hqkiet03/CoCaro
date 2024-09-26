@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/dark_background"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvTurn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/turn_indicator_background"
+        android:fontFamily="@font/merienda_semibold"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="TURN : X"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:columnCount="8"
+        android:rowCount="12"
+        android:padding="15dp"
+        android:layout_margin="13dp"
+        android:columnOrderPreserved="false"
+        android:layout_gravity="center"
+        android:background="@color/grid_background">
+
+    </GridLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:padding="10dp">
+
+        <Button
+            android:id="@+id/btnNewGame"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
+            android:layout_weight="1"
+            android:backgroundTint="#08478A"
+            android:fontFamily="@font/satisfy_regular"
+            android:text="Replay"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btnUndo"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:backgroundTint="#A3FB8C00"
+            android:fontFamily="@font/satisfy_regular"
+            android:text="Undo"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/color_red"
+            android:fontFamily="@font/satisfy_regular"
+            android:text="Exit"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</LinearLayout>

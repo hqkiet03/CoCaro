@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <ImageView
+        android:id="@+id/gameLogo"
+        android:layout_width="375dp"
+        android:layout_height="287dp"
+        android:layout_marginBottom="32dp"
+        android:src="@mipmap/ic_banner_foreground" />
+
+    <Button
+        android:id="@+id/btnNewGame"
+        android:layout_width="@dimen/button_width"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:backgroundTint="@color/color_green"
+        android:fontFamily="@font/playwritehu_regular"
+        android:text="Start Game"
+        android:textColor="#FDFDFD"
+        android:textStyle="bold"
+        android:textSize="21sp" />
+
+    <Button
+        android:id="@+id/btnHistory"
+        android:layout_width="@dimen/button_width"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:backgroundTint="@color/color_brown"
+        android:fontFamily="@font/playwritehu_regular"
+        android:text="History"
+
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:textSize="21sp" />
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="@dimen/button_width"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:backgroundTint="@color/color_red"
+        android:fontFamily="@font/playwritehu_regular"
+        android:text="Exit"
+
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:textSize="21sp" />
+
+    </LinearLayout>
